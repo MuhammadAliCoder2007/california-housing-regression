@@ -1,19 +1,34 @@
-📘 California Housing Price Prediction (Regression)
-Machine Learning Project #1 — Linear Regression
+📘 California Housing Price Prediction (Linear Regression)
 
-This project predicts California housing prices using the classic California Housing Dataset.
-It uses Linear Regression, evaluation metrics (MAE, RMSE, R²), and visualization to understand model performance.
+This project uses the California Housing Dataset to build a linear regression model that predicts median housing prices based on features like income, house age, number of rooms, and geographic location.
 
-📁 Project Structure
-california-housing-regression/
-│
-├── california_housing.ipynb   # Main Jupyter Notebook
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-└── images/
-     └── scatter_plot.png      # Predicted vs Actual plot
+🚀 Project Steps
 
-📊 Technologies Used
+Load & explore dataset
+
+Convert to pandas DataFrame
+
+Train/Test split (80/20)
+
+Train Linear Regression model
+
+Make predictions
+
+Evaluate using MAE, MSE, RMSE, R²
+
+Visualize predictions with a scatter plot
+
+📊 Model Metrics
+Metric	Value
+MAE	your_value_here
+RMSE	your_value_here
+R²	your_value_here
+
+(Add your numbers)
+
+📈 Predicted vs Actual Plot
+
+🛠 Technologies Used
 
 Python
 
@@ -25,50 +40,17 @@ Scikit-Learn
 
 Matplotlib
 
-🧠 Modeling Steps
+Jupyter Notebook
 
-Load & inspect dataset
+📁 Repository Structure
+california-housing-regression/
+│
+├── california_housing.ipynb
+├── requirements.txt
+├── README.md
+└── scatter_plot.png
 
-Convert to pandas DataFrame
-
-Train/Test split (80/20)
-
-Train Linear Regression model
-
-Make predictions
-
-Evaluate performance
-
-Visualize predicted vs actual prices
-
-📈 Model Performance
-Metric	Value
-MAE	your value here
-RMSE	your value here
-R² Score	your value here
-
-Update these with your printed values.
-
-📉 Predicted vs Actual Plot
-
-🚀 How to Run
-pip install -r requirements.txt
-jupyter notebook
-
-
-Open california_housing.ipynb
-
-📝 Future Improvements
-
-Try Random Forest regression
-
-Add feature scaling (StandardScaler)
-
-Add hyperparameter tuning
-
-Explore regularized models (Lasso/Ridge)
-
-👤 Author
+🧠 Author
 
 Muhammad Ali
-Machine Learning Portfolio Project #1
+First machine learning portfolio project ✔️
